@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testmart.serviceimpl.UserServiceImplShould" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-06-16T05:56:52" hostname="RJ5" time="10.459">
+  <properties/>
+  <testcase name="[1] Terry, 1, 2" classname="com.testmart.serviceimpl.UserServiceImplShould" time="7.971"/>
+  <testcase name="[2] Quigley, 2, 1" classname="com.testmart.serviceimpl.UserServiceImplShould" time="0.407"/>
+  <testcase name="[3] acharlota, 11, 1" classname="com.testmart.serviceimpl.UserServiceImplShould" time="0.375"/>
+  <testcase name="[1] 1" classname="com.testmart.serviceimpl.UserServiceImplShould" time="0.433"/>
+  <testcase name="[2] 2" classname="com.testmart.serviceimpl.UserServiceImplShould" time="0.347"/>
+  <testcase name="[3] 3" classname="com.testmart.serviceimpl.UserServiceImplShould" time="0.35"/>
+  <testcase name="returnAllUsers()" classname="com.testmart.serviceimpl.UserServiceImplShould" time="0.531"/>
+  <system-out><![CDATA[2023-06-15 23:56:55.854 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - searchUsers() called with query=Terry
+2023-06-15 23:56:57.406 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/search?q=Terry
+2023-06-15 23:57:00.551 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - searchUsers() called with query=Quigley
+2023-06-15 23:57:00.551 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/search?q=Quigley
+2023-06-15 23:57:00.959 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - searchUsers() called with query=acharlota
+2023-06-15 23:57:00.959 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/search?q=acharlota
+2023-06-15 23:57:01.367 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - getUser() called with userId=1
+2023-06-15 23:57:01.367 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/1
+2023-06-15 23:57:01.797 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - getUser() called with userId=2
+2023-06-15 23:57:01.797 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/2
+2023-06-15 23:57:02.151 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - getUser() called with userId=3
+2023-06-15 23:57:02.151 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/3
+2023-06-15 23:57:02.512 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - getAllUsers() called
+2023-06-15 23:57:02.512 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

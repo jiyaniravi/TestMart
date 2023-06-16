@@ -1,0 +1,14 @@
+~2023-06-15 23:56:55.854 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - searchUsers() called with query=Terry
+ã2023-06-15 23:56:57.406 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/search?q=Terry
+Ä2023-06-15 23:57:00.551 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - searchUsers() called with query=Quigley
+ç2023-06-15 23:57:00.551 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/search?q=Quigley
+Ç2023-06-15 23:57:00.959 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - searchUsers() called with query=acharlota
+è2023-06-15 23:57:00.959 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/search?q=acharlota
+w2023-06-15 23:57:01.367 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - getUser() called with userId=1
+~2023-06-15 23:57:01.367 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/1
+w2023-06-15 23:57:01.797 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - getUser() called with userId=2
+~2023-06-15 23:57:01.797 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/2
+w2023-06-15 23:57:02.151 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - getUser() called with userId=3
+~2023-06-15 23:57:02.151 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users/3
+m2023-06-15 23:57:02.512 [Test worker] DEBUG com.testmart.serviceimpl.UserServiceImpl - getAllUsers() called
+|2023-06-15 23:57:02.512 [Test worker] DEBUG com.testmart.util.OkHttpClientUtil - Requested URL=https://dummyjson.com/users
